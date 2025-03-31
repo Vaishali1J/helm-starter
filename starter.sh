@@ -7,7 +7,7 @@
 set -e
 
 usage() {
-cat << EOF
+echo << EOF
 Fetch, list, and delete helm starters from github.
 
 Available Commands:
